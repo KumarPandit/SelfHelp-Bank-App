@@ -5,7 +5,7 @@ import { Form, Button } from "react-bootstrap";
 class SignIn extends Component {
   render() {
     return (
-      <div className="signupcontainer" col-sm-12 col-md-5>
+      <div className="signincontainerin" col-sm-12 col-md-5>
         <Form>
           <h1>Please Enter Your Login Details </h1>
           <Form.Group>
@@ -16,7 +16,7 @@ class SignIn extends Component {
             <Form.Label>Password</Form.Label>
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
-          <Button variant="Success" type="submit">
+          <Button variant="success" type="submit">
             Log In
           </Button>
         </Form>
