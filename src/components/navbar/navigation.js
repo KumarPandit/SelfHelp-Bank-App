@@ -13,18 +13,20 @@ import "./navigation.css";
 
 const useStyles = makeStyles(theme => ({
   grow: {
-    flexGrow: 1
+    flexGrow: 1,
+    color: "yellow"
   },
   menuButton: {
     marginRight: theme.spacing(1)
   },
   title: {
-    display: "block"
+    display: "block",
+    color: "red"
   },
 
   search: {
     position: "relative",
-    borderRadius: theme.shape.borderRadius,
+    borderRadius: 0,
     backgroundColor: fade(theme.palette.common.black, 0.35),
     "&:hover": {
       backgroundColor: fade(theme.palette.common.white, 0.25)
